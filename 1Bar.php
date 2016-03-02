@@ -31,5 +31,5 @@ $subtotal = $entrada + $despesa + $cover;
 $dezporcento = $subtotal*0.1;
 $total = $subtotal + $dezporcento;
 
-echo "\nValores \nEntrada =  $entrada Reais \nDespesas = $despesa Reais\nCover = $cover Reais\nGarçon = $dezporcento Reais\nTOTAL da conta =  $total Reais";
+echo "\nValores \nEntrada =  $entrada Reais \nDespesas = $despesa Reais\nCover = $cover Reais\n10% Garçon = $dezporcento Reais\nTOTAL da conta =  $total Reais";
 

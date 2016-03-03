@@ -39,4 +39,7 @@ if (($SMed+$SEdu)<$maximoAbate) {
 }
 $total=$impostoTotal-$maximoAbate;
 
-echo "\nImposto total\nImposto Bruto : $impostoTotal\nAbatimentos : $$maximoAbate\nTotal a pagar : $total";
+echo "\nImposto total\nImposto Bruto : R$ ".
+number_format($impostoTotal,2,',','.')."\nAbatimentos : R$ ".
+number_format($maximoAbate,2,',','.')."\nTotal a pagar : R$ ".
+number_format($total,2,',','.');
